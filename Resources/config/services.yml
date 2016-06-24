@@ -1,0 +1,4 @@
+services:
+#    aimeos_ezpublish.example:
+#        class: Aimeos\EzpublishBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

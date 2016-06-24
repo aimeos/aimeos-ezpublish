@@ -1,0 +1,34 @@
+{
+	"name": "aimeos/aimeos-ezpublish",
+	"description": "Full-featured eZ Publish online shop bundle and e-commerce solution for high performance shops",
+	"homepage": "https://aimeos.org/eZPublish",
+	"type": "symfony-bundle",
+	"license": "MIT",
+	"keywords": ["aimeos", "ezpublish", "e-commerce", "ecommerce", "shop", "portal", "market place"],
+	"support": {
+		"source": "https://github.com/Aimeos/aimeos-ezpublish",
+		"issues": "https://github.com/Aimeos/aimeos-ezpublish/issues",
+		"forum": "https://aimeos.org/help",
+		"wiki": "https://aimeos.org/docs"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/aimeos/php-coveralls.git"
+		}
+	],
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.3",
+        "ezsystems/ezpublish-kernel": "~6.3",
+		"aimeos/aimeos-symfony": "dev-master",
+		"aimeos/ai-ezpublish": "dev-master"
+	},
+	"require-dev": {
+		"satooshi/php-coveralls": "dev-master"
+	},
+	"autoload": {
+		"psr-4": { "Aimeos\\EzpublishBundle\\": "" }
+	}
+}
